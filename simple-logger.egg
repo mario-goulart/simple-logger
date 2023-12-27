@@ -1,0 +1,10 @@
+;;; -*- scheme -*-
+((synopsis "A very simple logger")
+ (author "Mario Domenech Goulart")
+ (license "BSD")
+ (category io)
+ (test-dependencies test)
+ (component-options
+  (csc-options "-O3" "-d1"))
+ (components
+   (extension simple-logger)))
